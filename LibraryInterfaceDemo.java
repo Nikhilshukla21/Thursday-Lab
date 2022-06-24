@@ -48,8 +48,8 @@ class KidUsers implements LibraryUser // class implementing interface
 class AdultUser implements LibraryUser // class implementing interface
 {
 
-	int age;
-	String bookType = "Fiction";
+	private int age;
+	private String bookType = "Fiction";
 
 	@Override
 	public void registerAccount() {
